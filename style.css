@@ -1,0 +1,136 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #101827;
+    color: white;
+}
+
+.navbar {
+    background: #0b1220;
+    border-bottom: 1px solid #26364d;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 120px 0 70px;
+    background: linear-gradient(135deg, #101827, #173b59);
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    color: #20c9d8;
+    font-size: 28px;
+}
+
+.hero-text {
+    color: #c5d0df;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 25px 0;
+    line-height: 1.7;
+}
+
+.developer-card {
+    background: #1d2b40;
+    border: 1px solid #38516d;
+    border-radius: 20px;
+    padding: 40px 20px;
+    max-width: 320px;
+    margin: auto;
+    box-shadow: 0 10px 35px #0005;
+}
+
+.avatar {
+    font-size: 90px;
+    margin-bottom: 15px;
+}
+
+.section {
+    padding: 85px 0;
+    background: #152237;
+}
+
+.section-dark {
+    background: #101827;
+}
+
+.section-title {
+    color: #20c9d8;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #d2dbea;
+}
+
+.skill-card,
+.project-card {
+    height: 100%;
+    padding: 25px;
+    background: #1d2b40;
+    border: 1px solid #38516d;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.skill-card:hover,
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: #20c9d8;
+}
+
+.skill-card h4,
+.project-card h3 {
+    color: #20c9d8;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 15px;
+}
+
+#contact a {
+    color: #20c9d8;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #080e19;
+    color: #aebdce;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero h2 {
+        font-size: 23px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+}

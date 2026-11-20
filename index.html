@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моє портфоліо |  Максим</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Наш CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">MyPortfolio</a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Головна</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Про мене</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Технології</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Проєкти</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="hero">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <p class="text-info fw-bold">ВІТАЮ НА МОЄМУ САЙТІ!</p>
+                <h1>Привіт, я Максим</h1>
+                <h2>Майбутній Full Stack Developer</h2>
+                <p class="hero-text">
+                    Я вивчаю програмування, створення сайтів
+                    та сучасні вебтехнології. Це моє особисте
+                    портфоліо з навчальними роботами.
+                </p>
+                <a href="#projects" class="btn btn-info btn-lg me-2">Мої проєкти</a>
+                <a href="#contact" class="btn btn-outline-light btn-lg">Контакти</a>
+            </div>
+
+            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+                <div class="developer-card">
+                    <div class="avatar">👨‍💻</div>
+                    <h3>Максим</h3>
+                    <p>Future Developer</p>
+                    <span class="badge bg-info text-dark">HTML • CSS • JS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">Про мене</h2>
+        <p>
+            Мене звати Максим. Я цікавлюся комп'ютерами,
+            технологіями та створенням вебсайтів. Мені подобається
+            дізнаватися, як працюють сайти та програми.
+        </p>
+        <p>
+            Я обрав програмування, тому що хочу навчитися створювати
+            власні проєкти та втілювати цікаві ідеї в життя.
+            У майбутньому я прагну стати Full Stack Developer,
+            покращувати свої навички та працювати над корисними проєктами.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section section-dark">
+    <div class="container">
+        <h2 class="section-title">Мої технології</h2>
+
+        <div class="row g-3">
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-card">
+                    <h4>Frontend</h4>
+                    <p>HTML, CSS, JavaScript, Bootstrap</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-card">
+                    <h4>Backend</h4>
+                    <p>Python, Node.js — вивчаю</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-card">
+                    <h4>Database</h4>
+                    <p>SQL — планую вивчати</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-card">
+                    <h4>Tools</h4>
+                    <p>VS Code, Git, GitHub</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Мої проєкти</h2>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                    <h3>Мій перший сайт</h3>
+                    <p>Навчальна HTML-сторінка з текстом, заголовками та списками.</p>
+                    <p><strong>Технології:</strong> HTML, CSS</p>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-info">GitHub</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                    <h3>Quiz Game</h3>
+                    <p>Невелика вікторина, у якій потрібно відповідати на запитання.</p>
+                    <p><strong>Технології:</strong> Python</p>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-info">GitHub</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                    <h3>Моє портфоліо</h3>
+                    <p>Персональний сайт для представлення моїх навичок і робіт.</p>
+                    <p><strong>Технології:</strong> HTML, CSS, Bootstrap</p>
+                    <a href="#home" class="btn btn-info">На початок</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-dark">
+    <div class="container text-center">
+        <h2 class="section-title">Контакти</h2>
+        <p>Буду радий спілкуванню та новим знайомствам!</p>
+        <p>Email: your-email@example.com</p>
+        <p>
+            GitHub:
+            <a href="https://github.com/Yasi499" target="_blank"
+               rel="noopener noreferrer">Мій GitHub</a>
+        </p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026  Максим. Моє портфоліо.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
